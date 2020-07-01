@@ -48,10 +48,10 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 507px;
+    width: 451px;
     height: 38px;
     position: absolute;
-    left: 0px;
+    left: 29px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:106px;
@@ -84,10 +84,10 @@ placement */
 }
 .custom .bumpers{
     position: absolute;
-    width: 507px;
+    width: 466px;
     height: 21px;
-    left: 0px;
-    top: 50px;
+    left: 22px;
+    top: 53px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
