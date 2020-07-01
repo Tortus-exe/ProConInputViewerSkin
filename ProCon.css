@@ -142,9 +142,9 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
-    width: 34px;
-    height: 19px;
+    background: url(https://vectr.com/hextil/g1mYgBznhS.png?width=50&height=50&select=g1mYgBznhSpage0);
+    width: 50px;
+    height: 50px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -21px;
@@ -172,7 +172,7 @@ start and select buttons. */
     position: absolute;
     width:62px;
     height:62px;
-    background: url(ps3-assets/face-buttons.png);
+    background: url(https://vectr.com/hextil/b3QNub8vz.png?width=209&height=105&select=b3QNub8vzpage0);
 }
 .custom .button.pressed{
     background-position-y: -64px;
@@ -208,7 +208,7 @@ the CSS inline. */
 }
 .custom .stick{
     position: absolute;
-    background: url(ps3-assets/thumbs.png);
+    background: url(https://vectr.com/hextil/bcB2SE5Ok.png?width=510&height=128&select=bcB2SE5Okpage0);
     height:105px;
     width: 105px;
 }
@@ -235,7 +235,7 @@ the CSS inline. */
     left: 74px;
 }
 .custom .face{
-    background: url(ps3-assets/dpad.png);
+    background: url(https://vectr.com/hextil/b1hCul3Zad?select=b2U2kkg16g);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
