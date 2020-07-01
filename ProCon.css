@@ -35,7 +35,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 
 */
 
-/*BEGIN PS3 Controller Styling*/
+/*BEGIN Pro Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
     /* The background image is basically the base for the controller's skin. The 
@@ -48,7 +48,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 784px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(ps3-assets/base-disconnect.png);
+    background: url(https://vectr.com/hextil/akI3z5hbH.png?width=506.667&height=418.667&select=akI3z5hbHpage0);
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -326,4 +326,4 @@ themselves are fairly self explanatory. */
   
 }
 
-/*END PS3 Controller Styling*/
+/*END Pro Controller Styling*/
