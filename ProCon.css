@@ -135,7 +135,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 131;
+    width: 131px;
     height: 26px;
     top: 100px;
     left: 200px;
@@ -144,7 +144,7 @@ start and select buttons. */
 .custom .back, .custom .start{
     background: url(https://vectr.com/hextil/g1mYgBznhS.png?width=50&height=50&select=g1mYgBznhSpage0);
     width: 50px;
-    height: 50px;
+    height: 25px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -25px;
@@ -156,45 +156,45 @@ start and select buttons. */
 }
 .custom .start{
     float: right;
-    width: 26px;
-    background-position: 37px 0;
+    width: 25px;
+    background-position: 25px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
     width: 158px;
     height: 157px;
-    top: 82px;
+    top: 77px;
     left: 349px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:62px;
-    height:62px;
+    width: 52px;
+    height: 52px;
     background: url(https://vectr.com/hextil/b3QNub8vz.png?width=209&height=105&select=b3QNub8vzpage0);
 }
 .custom .button.pressed{
-    background-position-y: -64px;
+    background-position-y: -53px;
     margin-top: 5px;
 }
 .custom .a{
-    background-position: 62px 0;
-    top: 142px;
-    left: 71px;
+    background-position: 52px 0;
+    top: 103px;
+    left: 53px;
 }
 .custom .b{
-    background-position: 125px 0;
-    top: 71px;
+    background-position: 104px 0;
+    top: 50px;
     right: 0px;
 }
 .custom .x{
-    background-position: 0 0;
-    top: 71px;
+    background-position: 0px 0;
+    top: 51px;
 }
 .custom .y{
-    background-position: -63px 0;
-    left: 71px;
+    background-position: -53px 0;
+    left: 54px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
@@ -209,22 +209,23 @@ the CSS inline. */
 .custom .stick{
     position: absolute;
     background: url(https://vectr.com/hextil/bcB2SE5Ok.png?width=510&height=128&select=bcB2SE5Okpage0);
-    height:165px;
-    width: 165px;
+    height: 128px;
+    width: 127px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -106px;
+    background-position-x: -128px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -211px;
+    background-position-x: -256px;
 }
 .custom .stick.left{
-    top: 0;
-    left: 0;
+    top: 19px;
+    left: 19px;
 }
 .custom .stick.right{
-    bottom: 0;
-    right: 0;
+    top: calc(100% - 146px);
+    left: calc(100% - 146px);
+    background-position-x: -384px;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
@@ -235,40 +236,40 @@ the CSS inline. */
     left: 82px;
 }
 .custom .face{
-    background: url(https://vectr.com/hextil/b1hCul3Zad?select=b2U2kkg16g);
+    background: url(https://vectr.com/hextil/b1hCul3Zad.png?width=200&height=115&select=b1hCul3Zadpage0);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
     width: 38px;
-    height: 52px;
+    height: 58px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
+    width: 56px;
     height: 38px;
 }
 .custom .face.up{
-    left: 50px;
+    left: 56px;
     top: 0;
-    background-position: 92px 0px;
+    background-position: -60px 0px;
 }
 .custom .face.down{
-    left: 50px;
+    left: 56px;
     top: 79px;
-    background-position: 131px 0;
+    background-position: 100px 0;
 }
 .custom .face.left{
     top: 47px;
     left: 0;
-    background-position: 0px 0;
+    background-position: -141px -9px;
 }
 .custom .face.right{
     top: 47px;
     right: 0px;
-    background-position: 53px 0;
+    background-position: 197px -10px;
 }
 .custom .face.pressed{
     margin-top: 5px;
-    background-position-y: 52px;
+    background-position-y: 46px;
 }
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have 
