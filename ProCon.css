@@ -135,10 +135,10 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 250px;
-    left: 291px;
+    width: 131;
+    height: 26px;
+    top: 100px;
+    left: 200px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
@@ -147,25 +147,25 @@ start and select buttons. */
     height: 50px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
-    margin-top: 2px;
+    background-position-y: -25px;
+    margin-top: 0px;
 }
 .custom .back{
     float: left;
-    width: 38px;
+    width: 26px;
 }
 .custom .start{
     float: right;
-    width: 36px;
+    width: 26px;
     background-position: 37px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 204px;
-    height: 205px;
-    top: 156px;
-    left: 538px;
+    width: 158px;
+    height: 157px;
+    top: 82px;
+    left: 349px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
@@ -201,16 +201,16 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks{
     position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
+    width: 433px;
+    height: 334px;
+    top: 84px;
+    left: 1px;
 }
 .custom .stick{
     position: absolute;
     background: url(https://vectr.com/hextil/bcB2SE5Ok.png?width=510&height=128&select=bcB2SE5Okpage0);
-    height:105px;
-    width: 105px;
+    height:165px;
+    width: 165px;
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
@@ -223,16 +223,16 @@ the CSS inline. */
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    bottom: 0;
+    right: 0;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
+    width: 151px;
+    height: 151px;
+    top: 255px;
+    left: 82px;
 }
 .custom .face{
     background: url(https://vectr.com/hextil/b1hCul3Zad?select=b2U2kkg16g);
