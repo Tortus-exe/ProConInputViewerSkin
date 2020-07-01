@@ -48,13 +48,13 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 900px;
+    width: 106px;
     height: 38px;
     position: absolute;
     left: 0px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:106px;
+    width:507px;
     height:38px;
     background: url(https://vectr.com/hextil/b8huRVBJxV.png?width=106&height=38&select=b8huRVBJxVpage0);
     opacity: 0;
@@ -77,14 +77,14 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 900px;
+    width: 124px;
     height: 21px;
     background: url(https://vectr.com/hextil/b2bicyHxG.png?width=124&height=21&select=b2bicyHxGpage0);
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 124px;
+    width: 507px;
     height: 21px;
     left: 0px;
     top: 50px;
