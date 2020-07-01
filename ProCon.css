@@ -51,7 +51,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 106px;
     height: 38px;
     position: absolute;
-    left: 100px;
+    left: 0px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:106px;
@@ -73,17 +73,17 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 89px;
-    height: 28px;
-    background: url(ps3-assets/bumpers.png);
+    width: 124px;
+    height: 21px;
+    background: url(https://vectr.com/hextil/b2bicyHxG.png?width=124&height=21&select=b2bicyHxGpage0);
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 586px;
-    height: 28px;
-    left: 99px;
-    top: 72px;
+    width: 124px;
+    height: 21px;
+    left: 0px;
+    top: 50px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
