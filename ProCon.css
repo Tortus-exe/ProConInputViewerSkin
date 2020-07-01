@@ -51,7 +51,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 106px;
     height: 38px;
     position: absolute;
-    left: 0px;
+    left: 100px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:106px;
@@ -68,6 +68,10 @@ above to achieve the desired position. */
 }
 .custom .trigger.right{
     float: right;
+}
+
+.custom .trigger.pressed{
+    opacity: 1;
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
