@@ -48,15 +48,15 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 586px;
-    height: 65px;
+    width: 106px;
+    height: 38px;
     position: absolute;
-    left: 99px;
+    left: 100px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:86px;
-    height:65px;
-    background: url(ps3-assets/triggers.png);
+    width:106px;
+    height:38px;
+    background: url(https://vectr.com/hextil/b8huRVBJxV.png?width=106&height=38&select=b8huRVBJxVpage0);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
