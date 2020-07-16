@@ -7,5 +7,6 @@
 
 :lang(ja) 	{
     font-family: 'PoiretOne', sans-serif;
-    font-size: 100%;
+    src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/s/poiretone/v8/UqyVK80NJXN4zfRgbdfbo5BcV-UyZKAbcw.woff2) format('woff2');
+    font-style: normal;
 }
