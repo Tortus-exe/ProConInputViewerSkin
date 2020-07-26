@@ -144,7 +144,7 @@ function updateDisplay(){
   }
 
   moveSection(display_joystick_nub, analog_values[analog_bindings["joystick_x"]], analog_values[analog_bindings["joystick_y"]]);
-  moveSection(display_cstick_nub, analog_values[analog_bindings["cstick_x"]], analog_values[analog_bindings["cstick_y"]]);
+  moveSection(display_cstick_nub, -analog_values[analog_bindings["cstick_x"]], -analog_values[analog_bindings["cstick_y"]]);
 
   
 
