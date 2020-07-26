@@ -41,7 +41,7 @@ function updateDisplay(){
   var cY = -analog_values[analog_bindings["cstick_y"]];
 
   if(digital_values[digital_bindings["button_a"]]){
-    fillArea(display_a, color_dark_green);
+    fillArea(display_a, color_white);
     strokeArea(display_a, color_white);
   } else {
     fillArea(display_a, color_green);
@@ -49,7 +49,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["button_b"]]){
-    fillArea(display_b, color_dark_red);
+    fillArea(display_b, color_white);
     strokeArea(display_b, color_white);
   } else {
     fillArea(display_b, color_red);
@@ -57,7 +57,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["button_x"]]){
-    fillArea(display_x, color_dark_grey);
+    fillArea(display_x, color_white);
     strokeArea(display_x, color_white);
   } else {
     fillArea(display_x, color_grey);
@@ -65,7 +65,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["button_y"]]){
-    fillArea(display_y, color_dark_grey);
+    fillArea(display_y, color_white);
     strokeArea(display_y, color_white);
   } else {
     fillArea(display_y, color_grey);
@@ -73,7 +73,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["button_start"]]){
-    fillArea(display_start, color_dark_grey);
+    fillArea(display_start, color_white);
     strokeArea(display_start, color_white);
   } else {
     fillArea(display_start, color_grey);
@@ -84,15 +84,15 @@ function updateDisplay(){
   l_percent = (analog_values[analog_bindings["trigger_l"]] + 1) / 2;
   r_percent = (analog_values[analog_bindings["trigger_r"]] + 1) / 2;
 
-  l_value = 220 - (100 * l_percent);
-  r_value = 220 - (100 * r_percent);
+  l_value = 170 + (100 * l_percent);
+  r_value = 170 + (100 * r_percent);
 
   l_rgb = "rgb(" + parseInt(l_value) + ", " + parseInt(l_value) + ", " + parseInt(l_value) + ")";
   r_rgb = "rgb(" + parseInt(r_value) + ", " + parseInt(r_value) + ", " + parseInt(r_value) + ")";
 
 
   if(digital_values[digital_bindings["button_l"]]){
-    fillArea(display_l, color_dark_grey);
+    fillArea(display_l, color_white);
     strokeArea(display_l, color_white);
   } else {
     fillArea(display_l, l_rgb);
@@ -100,7 +100,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["button_r"]]){
-    fillArea(display_r, color_dark_grey);
+    fillArea(display_r, color_white);
     strokeArea(display_r, color_white);
   } else {
     fillArea(display_r, r_rgb);
@@ -108,7 +108,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["button_z"]]){
-    fillArea(display_z, color_dark_purple);
+    fillArea(display_z, color_white);
     strokeArea(display_z, color_white);
   } else {
     fillArea(display_z, color_purple);
@@ -116,7 +116,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["dpad_u"]]){ 
-    fillArea(display_dpad_u, color_dark_grey);
+    fillArea(display_dpad_u, color_white);
     strokeArea(display_dpad_u, color_white);
   } else {
     fillArea(display_dpad_u, color_grey);
@@ -124,7 +124,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["dpad_d"]]){
-    fillArea(display_dpad_d, color_dark_grey);
+    fillArea(display_dpad_d, color_white);
     strokeArea(display_dpad_d, color_white);
   } else {
     fillArea(display_dpad_d, color_grey); 
@@ -132,7 +132,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["dpad_l"]]){
-    fillArea(display_dpad_l, color_dark_grey);
+    fillArea(display_dpad_l, color_white);
     strokeArea(display_dpad_l, color_white);
   } else {
     fillArea(display_dpad_l, color_grey);
@@ -140,7 +140,7 @@ function updateDisplay(){
   }
 
   if(digital_values[digital_bindings["dpad_r"]]){
-    fillArea(display_dpad_r, color_dark_grey);
+    fillArea(display_dpad_r, color_white);
     strokeArea(display_dpad_r, color_white);
   } else {
     fillArea(display_dpad_r, color_grey);
