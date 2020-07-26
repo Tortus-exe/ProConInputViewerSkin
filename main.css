@@ -1,0 +1,610 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+@font-face {
+  font-family: BigJohn;
+  src: url(../font/bigjohn.otf);
+}
+
+* {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: #F2E2BB;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #141214;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: #141214;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: #141214;
+}
+
+h4 {
+  font-size: 3rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #141214;
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #141214;
+}
+
+h6 {
+  font-size: 2rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #141214;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  color: #141214;
+}
+
+a {
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  color: #141214;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: inherit;
+}
+
+#home {
+  background-color: #e5ae14;
+  width: 100vw;
+  height: 100vh;
+}
+
+#home .content {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+#home .content #header {
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#home .content #header #shadow {
+  position: absolute;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: 105px;
+  margin-right: 31px;
+  top: 0;
+  z-index: 0 !important;
+  text-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+}
+
+#home .content #header #text {
+  position: relative;
+  z-index: 2;
+  padding-left: 105px;
+  padding-right: 31px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  pointer-events: none;
+}
+
+#home .content #header #text h1 {
+  position: relative;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  pointer-events: none;
+}
+
+#home .content #header #text h2 {
+  position: relative;
+  font-family: "Barlow", sans-serif;
+  color: #F2E2BB;
+  text-transform: none;
+  font-size: 2rem;
+  margin: 0;
+  float: right;
+  margin-right: -31px;
+  clear: both;
+  text-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+
+@media (max-width: 1010px) {
+  #home .content #header #shadow {
+    margin-top: 10px;
+    line-height: 5rem;
+  }
+  #home .content #header #text h1 {
+    margin-top: -10px;
+    line-height: 5rem;
+  }
+}
+
+#home .content #thumb {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  z-index: 1;
+  border: 3px solid #F2E2BB;
+  -webkit-box-shadow: -6px 12px 4px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: -6px 12px 4px 3px rgba(0, 0, 0, 0.15);
+}
+
+#home .content #cta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+#home .content #cta a {
+  background-color: #141214;
+  color: #F2E2BB;
+  padding: 0.75rem;
+  margin: 0 0.5rem;
+  -webkit-border-radius: 5rem;
+          border-radius: 5rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  -webkit-box-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+}
+
+#home .content #cta a:hover {
+  background-color: #046381;
+  color: #E1FAD2;
+}
+
+@media (max-width: 870px) {
+  #home .content #cta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0.75rem 2rem;
+  }
+  #home .content #cta a {
+    margin-bottom: 1rem;
+  }
+}
+
+#home #note {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#home #note p {
+  font-size: 1.25rem !important;
+  margin: 0.5rem;
+}
+
+#commissions {
+  background-color: #e5ae14;
+}
+
+#commissions .content {
+  position: relative;
+}
+
+#commissions .content #header {
+  position: relative;
+  padding: 10px;
+  padding-bottom: 70px;
+  padding-top: 20px;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#commissions .content #header #shadow {
+  position: absolute;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: 105px;
+  margin-right: 31px;
+  top: 0;
+  z-index: 0 !important;
+  text-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+}
+
+#commissions .content #header #text {
+  position: relative;
+  z-index: 2;
+  padding-left: 105px;
+  padding-right: 31px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  pointer-events: none;
+}
+
+#commissions .content #header #text h1 {
+  position: relative;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  pointer-events: none;
+}
+
+#commissions .content #header #text h2 {
+  position: relative;
+  font-family: "Barlow", sans-serif;
+  color: #F2E2BB;
+  text-transform: none;
+  font-size: 2rem;
+  margin: 0;
+  float: right;
+  margin-right: -31px;
+  clear: both;
+  text-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+
+@media (max-width: 500px) {
+  #commissions .content #header #shadow {
+    margin-top: 10px;
+    line-height: 5rem;
+  }
+  #commissions .content #header #text h1 {
+    margin-top: -10px;
+    line-height: 5rem;
+  }
+}
+
+#commissions .content #thumb {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  z-index: 1;
+  border: 3px solid #F2E2BB;
+  -webkit-box-shadow: -6px 12px 4px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: -6px 12px 4px 3px rgba(0, 0, 0, 0.15);
+}
+
+#commissions .content #insta {
+  width: 150px;
+  position: relative;
+  display: block;
+  background-color: #141214;
+  color: #F2E2BB;
+  padding: 0.75rem;
+  margin: 0 auto;
+  -webkit-border-radius: 5rem;
+          border-radius: 5rem;
+  text-align: center;
+  -webkit-box-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: -4px 8px 4px rgba(0, 0, 0, 0.15);
+}
+
+#commissions .content #insta:hover {
+  background-color: #046381;
+  color: #E1FAD2;
+}
+
+#commissions .content #cta {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: 500px;
+}
+
+#commissions .content #cta .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2rem;
+}
+
+#commissions .content #cta .wrapper #blurb {
+  max-width: 350px !important;
+  margin-right: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#commissions .content #cta .wrapper #blurb h3 {
+  font-size: 2rem;
+}
+
+#commissions .content #cta .wrapper #thumb {
+  position: relative;
+  min-width: 150px !important;
+  background-position: center;
+  margin: 2rem 0;
+}
+
+@media (max-width: 450px) {
+  #commissions #cta .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #commissions #cta .wrapper #thumb {
+    margin: 0 auto !important;
+  }
+  #commissions #cta .wrapper #blurb {
+    margin: 0 auto !important;
+  }
+  #commissions #cta .wrapper #blurb h3, #commissions #cta .wrapper #blurb p {
+    text-align: center;
+  }
+}
+
+#commissions #note {
+  position: fixed;
+  bottom: 0;
+}
+
+#commissions #note p {
+  font-size: 1.25rem !important;
+  margin: 0.5rem;
+}
+
+#email-form {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+
+#email-form .email-marketing-by-b {
+  display: none !important;
+}
+
+#email-form input {
+  padding: .75rem 1.5rem !important;
+  font-family: "Barlow", sans-serif !important;
+}
+
+#email-form div div {
+  background: none !important;
+}
+
+#email-form fieldset div {
+  padding: 1rem 1.5rem !important;
+  background: #141214 !important;
+  font-family: "Barlow", sans-serif !important;
+}
+
+#email-form fieldset div:hover {
+  background: #046381 !important;
+  color: #E1FAD2 !important;
+}
+
+.content .title {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.content .title h1 {
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.content .title h2 {
+  font-family: "Barlow", sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: 200;
+}
+
+.content .title p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  text-transform: lowercase;
+}
+
+.content .title #standalone {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.content .title #standalone label {
+  font-family: "Barlow", sans-serif;
+}
+
+.content .title #standalone input {
+  font-family: "Barlow", sans-serif;
+}
+
+.content .title a {
+  display: block;
+  width: 410px;
+  margin: 0 auto;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.content .title a:hover {
+  background-color: #62beeb;
+  color: #323232;
+}
+
+.content .display {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.content .display#standalone {
+  width: 500px !important;
+  margin: 0;
+}
+
+.content .display#standalone #controllerDisplay {
+  background-color: transparent;
+}
+
+.content .display #controllerPrompt {
+  font-family: "Barlow", sans-serif;
+}
+
+.content .display p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  text-transform: lowercase;
+}
+
+.content .display p#note {
+  font-size: 13px;
+}
+
+.content .display #controllerDisplay {
+  position: relative;
+  background-color: #ccfff0;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.content .display #controllerDisplay rect {
+  stroke-width: 5px;
+}
+
+.content .display #controllerDisplay * {
+  -webkit-transition: all 0s linear !important;
+  transition: all 0s linear !important;
+}
+
+.content .display #controllerDisplay a {
+  margin: 0 !important;
+  padding: 4px;
+  position: absolute;
+  color: black;
+  font-family: "Barlow", sans-serif;
+  display: inline !important;
+  background-color: transparent;
+  bottom: 3px;
+  text-align: right;
+  right: 3px;
+  width: 73px;
+}
+
+.content .display #controllerDisplay a:hover {
+  color: white;
+  background-color: black;
+}
+
+.content .display #raw-values {
+  display: none;
+}
+
+.content .display #raw-values.is-showing {
+  display: block;
+}
+
+.content .display #raw-values p {
+  text-align: left;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.content .display a {
+  display: block;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.content .display a:hover {
+  background-color: #62beeb;
+  color: #323232;
+}
