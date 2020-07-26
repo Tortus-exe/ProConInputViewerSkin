@@ -35,6 +35,10 @@ function loadDisplay(){
 }
 
 function updateDisplay(){
+  var analogX = analog_values[analog_bindings["joystick_x"]]; 
+  var analogY = analog_values[analog_bindings["joystick_y"]];
+  var cX = -analog_values[analog_bindings["cstick_x"]]; 
+  var cY = -analog_values[analog_bindings["cstick_y"]];
 
   if(digital_values[digital_bindings["button_a"]]){
     fillArea(display_a, color_dark_green);
@@ -143,13 +147,42 @@ function updateDisplay(){
     strokeArea(display_dpad_r, color_grey);
   }
 
-  moveSection(display_joystick_nub, analog_values[analog_bindings["joystick_x"]], analog_values[analog_bindings["joystick_y"]]);
-  moveSection(display_cstick_nub, -analog_values[analog_bindings["cstick_x"]], -analog_values[analog_bindings["cstick_y"]]);
+  moveSection(display_joystick_nub, analogX, analogY);
+  moveSection(display_cstick_nub, cX, cY);
 
   
 
 }
+/*
+function calibrateController(valueX, valueY, axis) {
+  //stick max values
+  var SMVy+;
+  var SMVy-;
+  var SMVx+;
+  var SMVx-;
+  
+  var CSMVy+;
+  var CSMVy-;
+  var CSMVx+;
+  var CSMVx-;
+  
+  var angle;
+  var magnitude;
+  var magnitudePercent;
+  
+  angle = cartesian2Polar(valueX, valueY).radians * (180/Math.PI);
+  magnitude = cartesian2Polar(valueX, valueY).distance; 
+  
+  
+}
 
+function cartesian2Polar(x, y){
+    distance = Math.sqrt(x*x + y*y)
+    radians = Math.atan2(y,x) //This takes y first
+    polarCoor = { distance:distance, radians:radians }
+    return polarCoor
+}
+*/
 function initButtons(){
   display_loaded = true;
 
