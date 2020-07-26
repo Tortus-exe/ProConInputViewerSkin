@@ -84,8 +84,8 @@ function updateDisplay(){
   l_percent = (analog_values[analog_bindings["trigger_l"]] + 1) / 2;
   r_percent = (analog_values[analog_bindings["trigger_r"]] + 1) / 2;
 
-  l_value = 170 + (100 * l_percent);
-  r_value = 170 + (100 * r_percent);
+  l_value = 220 + (100 * l_percent);
+  r_value = 220 + (100 * r_percent);
 
   l_rgb = "rgb(" + parseInt(l_value) + ", " + parseInt(l_value) + ", " + parseInt(l_value) + ")";
   r_rgb = "rgb(" + parseInt(r_value) + ", " + parseInt(r_value) + ", " + parseInt(r_value) + ")";
@@ -147,8 +147,8 @@ function updateDisplay(){
     strokeArea(display_dpad_r, color_grey);
   }
 
-  moveSection(display_joystick_nub, analogX, analogY);
-  moveSection(display_cstick_nub, cX, cY);
+  moveSection(display_joystick_nub, analogX*1.25, analogY*1.25);
+  moveSection(display_cstick_nub, cX*1.25, cY*1.25);
 
   
 
