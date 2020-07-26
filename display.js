@@ -84,8 +84,8 @@ function updateDisplay(){
   l_percent = (analog_values[analog_bindings["trigger_l"]] + 1) / 2;
   r_percent = (analog_values[analog_bindings["trigger_r"]] + 1) / 2;
 
-  l_value = 220 + (100 * l_percent);
-  r_value = 220 + (100 * r_percent);
+  l_value = 184 + (100 * l_percent);
+  r_value = 184 + (100 * r_percent);
 
   l_rgb = "rgb(" + parseInt(l_value) + ", " + parseInt(l_value) + ", " + parseInt(l_value) + ")";
   r_rgb = "rgb(" + parseInt(r_value) + ", " + parseInt(r_value) + ", " + parseInt(r_value) + ")";
