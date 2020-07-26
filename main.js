@@ -83,8 +83,8 @@ function displayInputs() {
 
     var value_jx = analog_values[analog_bindings["joystick_x"]];
     var value_jy = analog_values[analog_bindings["joystick_y"]];
-    var value_cx = analog_values[analog_bindings["cstick_x"]];
-    var value_cy = analog_values[analog_bindings["cstick_y"]]
+    var value_cx = -analog_values[analog_bindings["cstick_x"]];
+    var value_cy = -analog_values[analog_bindings["cstick_y"]]
 
     html += "A Button: " + digital_values[digital_bindings["button_a"]] + "<br/>";
     html += "B Button: " + digital_values[digital_bindings["button_b"]] + "<br/>";
