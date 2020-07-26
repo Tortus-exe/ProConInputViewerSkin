@@ -1,7 +1,38 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <title>GCC Viewer </title>
+    <!--google analytics-->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-114850154-1');
+    </script>
+    <!--css-->
+    <!--javascript -->
+    <script type="text/javascript" src="../../assets/js/svg.js"></script>
+    <!--meta    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <!--title   -->
+    <meta property="og:title" content="GCC Viewer - joemar.me">
+    <!--page description -->
+    <meta name="description" content="">
+    <!--page icons -->
+    <link rel="icon" type="image/png" href="../assets/img/32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../assets/img/16.png" sizes="16x16">
+  </head>
+  <body> 
+    <div class="content">
+      <div class="display" id="standalone"> 
+        <div id="controllerDisplay">
+          <img class="svg" id="display" src="https://www.joemar.me/software/gcc/minimal.svg"> 
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="display.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
 </html>
