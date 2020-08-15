@@ -4,6 +4,11 @@
   src: url(../font/bigjohn.otf);
 }
 
+@font-face {
+  font-family: King-3;
+  src: url(../King-3%20SENIOR.ttf);
+}
+
 * {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
